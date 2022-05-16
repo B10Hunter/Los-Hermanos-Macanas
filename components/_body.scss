@@ -20,3 +20,20 @@ body {
     }
     
 }
+ 
+@mixin nani ($gbcolor, $text) {
+    
+    color: $gbcolor ;
+    text-align: center;
+    
+
+
+@if ($text == 'yes') 
+   { font-family: $fonttex;
+}
+}
+
+@each $tam in (p) { 
+    #{$tam} {
+    font-size: 28px;} 
+}

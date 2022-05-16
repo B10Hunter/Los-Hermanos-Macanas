@@ -1,14 +1,16 @@
 footer {
     .pieDePagina {
-        &__tex {padding: 50px;
-             margin-top: 0;
-            text-align: center;
+        &__tex {padding: 1px 24px;
+             margin-left: -29px ;
             color:$bgcolors ;
+            @extend nav ; 
+            text-align: center;
         }
     }
 }
-.pieDePagina__tex p:hover::after {
+footer section p:hover::after {
     content: "😀";
     margin-left: 10px;
+
     
 }

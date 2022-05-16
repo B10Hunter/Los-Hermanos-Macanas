@@ -1,6 +1,14 @@
 footer {
-    section {
-        p { text-align: center;
-            color:$bgcolors ;}
+    .pieDePagina {
+        &__tex {padding: 50px;
+             margin-top: 0;
+            text-align: center;
+            color:$bgcolors ;
+        }
     }
+}
+.pieDePagina__tex p:hover::after {
+    content: "😀";
+    margin-left: 10px;
+    
 }
